@@ -55,6 +55,8 @@ Table OF Contents
 	Typography
 \*----------------------------*/
 
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@100;200;300;400;500;600;700;800&family=Oswald:wght@200;300;400;500;600;700&display=swap');
+
 body {
   font-family: 'Roboto', sans-serif;
   font-weight: 400;
@@ -90,6 +92,26 @@ ul, ol {
 .container{
   max-width: 1600px;
   width: 100%;
+}
+
+.logo-color-grey{
+  color: #6d6e70;
+}
+.logo-color-blue{
+  color: #486373;
+}
+
+.text-logo{
+  font-family: 'Bebas Neue', cursive;
+  font-weight: 400;
+}
+
+.font-65{
+  font-size: 65px;
+}
+
+.font-80{
+  font-size: 80px;
 }
 
 /*----------------------------*\
@@ -847,7 +869,7 @@ textarea.input {
 .cat-head{
   background-image: url(../img/cat/cat-bg.png);
   background-repeat: no-repeat;
-  background-size: 100% 100%;
+  background-size: 100% 100.7%;
   margin-bottom: 0;color: #fff;padding: 15px 0;height: 135px;display: flex;align-items: center;
   justify-content: end;
   padding-right: 25px;
