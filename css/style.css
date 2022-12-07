@@ -83,6 +83,10 @@ a:hover, a:focus {
   outline: none;
 }
 
+.text-blue{
+  color: #00375d;
+}
+
 ul, ol {
   margin: 0;
   padding: 0;
@@ -873,6 +877,18 @@ textarea.input {
   margin-bottom: 0;color: #fff;padding: 15px 0;height: 135px;display: flex;align-items: center;
   justify-content: end;
   padding-right: 25px;
+}
+
+.view-more{
+  border: 3px solid #fff;
+  height: 111px;
+  width: 111px;
+  border-radius: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 15px;
+  text-align: center;
 }
 
 
